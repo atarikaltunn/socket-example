@@ -1,0 +1,22 @@
+{
+  "name": "socket-example",
+  "version": "0.0.1",
+  "description": "my first socket example",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./src/app",
+    "start": "node ./src/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "atarikaltunn <atarikaltunn@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "socket.io": "^4.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
